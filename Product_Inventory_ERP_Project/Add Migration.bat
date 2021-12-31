@@ -1,0 +1,1 @@
+dotnet ef migrations add "InitialCreate" -o "Areas/Inventory/Data/Migrations" -c InventoryERPDbContext
