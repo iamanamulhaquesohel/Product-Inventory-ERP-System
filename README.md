@@ -12,11 +12,11 @@
 4. To Open Application first Open the "Run Data Server.bat" then open the "Run Client Site.bat" File.
 
 # Folder Structure
-1. Go to the "Expense Tracker Application" Folder then you can find the all of folder about application.
-2. Model => DatabaseModel.cs File
+1. Go to the "Product-Inventory-ERP-System" Folder then you can find the all of folder about application.
+2. Model => DatabaseModel.cs File.
 3. Migrations => Database Migrations files.
-4. Controllers => Home Controller, Expense Categories Controller, Daily Expenses Controller.
-5. Validation => FutureDatePickValidation.cs this validation is prevent to pick future date.
+4. Controllers => Home Controller, ProductType Controller, Category Controller, Product Controller.
+5. Model => RandomStringGenerator.cs this file is use Generate random string for _Key Properties.
 6. Views => You will find the all of Razor Views files.
 7. wwwwroot => You will find Client Side Validation and some framwork.
 
